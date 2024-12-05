@@ -1,9 +1,10 @@
+
 var c = document.getElementById('canv');
 var $ = c.getContext('2d');
 
 
 var col = function(x, y, r, g, b) {
-  $.fillStyle = "rgb(" + r + "," + g + "," + b + ")";
+  $.fillStyle = "rgb(" + g + "," + b + ")";
   $.fillRect(x, y, 1,1);
 }
 var R = function(x, y, t) {

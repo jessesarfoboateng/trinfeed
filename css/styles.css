@@ -17,17 +17,16 @@ body {
   transition: opacity 0.5s;
   cursor: pointer;
   margin-right: 30px;
-  mix-blend-mode: multiply;
 }
 
-
-canvas {
-  width: 100%;
-  height: 80%;
-  content: '';
+#background-video {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  z-index: -1; /* Send the video to the background */
 }
 
 .nav-bar {
@@ -35,19 +34,19 @@ canvas {
   width: 100%;
   height: 60vh;
   display: flex;
-  justify-content:center;
-  
+  justify-content: center;
 }
 
 .nav-links {
   position: absolute;
-  top: -20px;
+  top: 0;
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
   align-items: center;
   font-size: 14px;
   padding: 20px;
+  z-index: 1; /* Ensure nav links are above the video */
 }
 
 .left-header {
@@ -78,4 +77,48 @@ canvas {
   padding: 10px 20px;
   border-radius: 20px;
   background-color: var(--primaryColor);
+}
+
+.info-flex {
+  position: absolute;
+  top: 210px;
+  left: 0;
+  right: 0;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-info {
+  font-size: 64px;
+  font-weight: Bold;
+  text-align: center;
+  width: 1196px;
+  margin-bottom: 0px;
+}
+
+.second-info {
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  width: 1196px;
+}
+
+.feedback-button {
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  font-family: Poppins, Arial;
+  border: none;
+  padding: 15px 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 250px;
+  cursor: pointer;
+  transition: background-color 0.6s;
+}
+
+.feedback-button:hover {
+  background-color: black;
 }

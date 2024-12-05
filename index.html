@@ -12,10 +12,15 @@
 </head>
 <body>
     <section class="nav-bar">
-      <canvas id="canv" width="32" height="32"></canvas>
+      <!-- <canvas id="canv" width="32" height="32"></canvas> -->
+      <video autoplay muted loop playsinline id="background-video">
+        <source src="assets/Simple Stars - HD Video Background Loop.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       
       <nav class="nav-links">
-        <img title="Trinfeed logo" class="trinfeed-logo" alt="stripe" src="assets/trinfeed logo.png">
+        <!-- <img title="Trinfeed logo" class="trinfeed-logo" alt="stripe" src="assets/trinfeed logo.png"> -->
+        <a class="pages" style="font-size: 20px; margin-right: 40px;">TRINFEED</a>
 
         <div class="left-header">
           <a class="pages">Products</a>
@@ -32,7 +37,11 @@
 
     </section>
 
-    <p>Lorem ipsum dolor sit amet consectetur. Sit adipiscing in sem in ut lobortis massa ut sit.</p>
+    <div class="info-flex">
+      <p class="first-info" style="color: white;">The easiest way to give feedback on <span style="color: black;">Trinity Projects</span></p>
+      <p class="second-info">Lorem ipsum dolor sit amet consectetur. Sit adipiscing in sem in ut lobortis massa ut sit.Sollicitudin id velit ac pretium ac. ut lobortis massa ut sit. Sollicitudin id velit ac</p>
+      <button att="feedback-button" class="feedback-button">Give us your feedback</button>
+    </div>
     <script src="scripts/script.js"></script>
 </body>
 </html>
