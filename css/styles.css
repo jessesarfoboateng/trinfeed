@@ -124,7 +124,7 @@ body {
   display: flex;
   align-items: center;
   margin-top: 70px;
-  gap: 130px;
+  gap: 100px;
 }
 
 .mobile-design {
@@ -165,5 +165,5 @@ body {
 }
 
 .icon:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
