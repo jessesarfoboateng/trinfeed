@@ -80,10 +80,7 @@ body {
 }
 
 .info-flex {
-  position: absolute;
-  top: 210px;
-  left: 0;
-  right: 0;
+  margin-top: -260px;
   display: flex;
   gap: 20px;
   flex-direction: column;
@@ -121,4 +118,23 @@ body {
 
 .feedback-button:hover {
   background-color: black;
+}
+
+.device-flex {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  gap: 130px;
+}
+
+.mobile-design {
+  width: 200px;
+}
+
+.pc-design {
+  width: 600px;
+}
+
+.ipad-design {
+  width: 250px;
 }
