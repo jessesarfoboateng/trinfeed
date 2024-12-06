@@ -11,6 +11,12 @@
           "video[playsinline]"
         ]
       }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
     ]
   }
 }
