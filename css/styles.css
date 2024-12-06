@@ -168,3 +168,12 @@ body {
   opacity: 0.6;
 }
 
+.typo-icon {
+  width: 32px;
+}
+
+.typography {
+  font-weight: Bold;
+  font-size: 24px;
+}
+
