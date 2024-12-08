@@ -175,6 +175,7 @@ body {
 .typography {
   font-weight: Bold;
   font-size: 24px;
+  margin-right: 100px;
 }
 
 .clients-topic {
@@ -200,6 +201,12 @@ body {
 
 .products:hover {
   box-shadow: -1px 7px 5px rgba(202, 200, 200, 0.8);
+}
+
+.arrow-down {
+  width: 24px;
+  height: 25.6px;
+  cursor: pointer;
 }
 
 
