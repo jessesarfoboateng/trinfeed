@@ -175,7 +175,7 @@ body {
 .typography {
   font-weight: Bold;
   font-size: 24px;
-  margin-right: 100px;
+  flex: 1;
 }
 
 .clients-topic {
@@ -209,4 +209,23 @@ body {
   cursor: pointer;
 }
 
+.typo {
+  width: 290px;
+  font-size: 16px;
+  text-align: left;
+  line-height: 28px;
+}
+
+.second-typo-flex {
+  width: 291px;
+  background-color: rgb(225, 225, 246);
+  padding: 20px 35px;
+  border-radius: 2px;
+}
+
+.second-typo-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 160px;
+}
 
