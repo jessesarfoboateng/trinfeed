@@ -127,28 +127,30 @@ body {
   gap: 100px;
 }
 
-.mobile-design {
+/* .mobile-design {
   width: 200px;
 }
+
+.ipad-design {
+  width: 250px;
+} */
 
 .pc-design {
   width: 600px;
 }
 
-.ipad-design {
-  width: 250px;
-}
-
 .icon-info {
   margin-top: 100px;
-  background-color: rgb(111, 195, 244);
+  background-color: var(--primaryColor);
   padding: 50px;
+  margin-bottom: 50px;
 }
 
 .icon-title {
   font-size: 38px;
   font-weight: Bold;
   text-align: center;
+  color: white;
 }
 
 .icon-flex {
@@ -218,7 +220,7 @@ body {
 
 .second-typo-flex {
   width: 291px;
-  background-color: rgb(225, 225, 246);
+  background-color: var(--primaryColor);
   padding: 20px 35px;
   border-radius: 2px;
 }
