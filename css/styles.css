@@ -1,5 +1,5 @@
 :root {
-  --primaryColor: rgb(1, 161, 255);
+  --primaryColor: #01a1ff;
   --secondaryColor: white;
 }
 
@@ -150,7 +150,6 @@ body {
   font-size: 38px;
   font-weight: Bold;
   text-align: center;
-  color: white;
 }
 
 .icon-flex {
@@ -251,5 +250,15 @@ body {
   width: 384px;
   height: 520px;
   border-radius: 4px;
+}
+
+.award-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.award-icon {
+  width: 280px;
 }
 
